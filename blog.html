@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>SOME OF THE WELL KNOWN ONLINE HACKATHON  </h1>
+    </section>
+
+    <!--blog page content-->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./images/hck.png" alt="">
+          <h2>Hackathons and Fest</h2>
+          <p>A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program.</p>
+          <br>
+          <p>The goal of a hackathon is to create functioning software or hardware by the end of the event. Hackathons tend to have a specific focus, which can include the programming language used, the operating system, an application, an API, or the subject and the demographic group of the programmers.
+          </p>
+          <br>
+          <p>Hackathons allow programmers to learn new skills quickly from other professionals. During the timed event, you might experience new coding languages, techniques, industry tools and leadership skills you haven't had access to yet</p>
+          <br>
+          <p>There are beginner-friendly hackathons designed for people of all experience levels and all ages, and some even teach basic coding. Like many things in life, that first step is the hardest</p>
+        
+          <div class="comment-box">
+            <h3>Leave A Comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Mail">
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">Post Comment</button>
+            </form>
+          </div>
+        
+        
+        </div>
+        <div class="blog-right">
+          <h3>Lists</h3>
+          <div>
+            <span>HACK-A-BOT</span>
+            <span>Free</span>
+          </div>
+          <div>
+            <span>Github Hackathon</span>
+            <span>Free</span>
+          </div>
+          <div>
+            <span>Google Girls Hackathon</span>
+            <span>Free</span>
+          </div>
+          <div>
+            <span>GSHOP hackathon</span>
+            <span>Free</span>
+          </div>
+          <div>
+            <span>Hacktoberfest github</span>
+            <span>Free</span>
+          </div>
+          <div>
+            <span>HackerEarth Hackathon</span>
+            <span>Free</span>
+          </div>
+          <div>
+            <span>Coindesk Hackathon</span>
+            <span>Free</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--end-->
+
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p> "Hackathons are where your crazy idea becomes reality,!</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
